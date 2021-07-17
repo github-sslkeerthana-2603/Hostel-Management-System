@@ -1,0 +1,79 @@
+label{
+    margin-left:100px;
+    font-size:35px;
+    font-family: Comic Sans MS;
+    color:black;
+    margin-top: 100px;
+    
+}
+.required:after{
+    content: "*";
+    color: red;
+}
+button{
+    background-color: lightblue;
+    font-family: Calibri;
+    color:purple;
+    font-size:22px;
+    margin-top:  26px;
+    display:block;
+    width:170px;
+    margin-left:5px;
+    margin-right:10px;
+    box-shadow: 2px 2px 2px 2px;
+    cursor: pointer;
+    height: 58px;
+}
+button:hover{
+    background-color: lightcyan;
+}
+button:active{
+    background-color:whitesmoke;
+    box-shadow: 0px 0px 0px 0px;
+}
+div{
+  
+   float:left;
+}
+body{
+
+    background-size:cover;
+    background-position: center;
+    display: intent;
+    background-color: rgba(135,135,175,0.2);
+    background-image: url("formBackground.jpg");
+    
+}
+input{
+    width:700px;
+    height:30px;
+    float:right;
+    margin-top: 15px;
+    margin-right: 135px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color:rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: calibri;
+    color: rgb(0,95,175);
+}
+select{
+    height: 30px;
+    width:700px;
+    margin-top: 10px;
+    margin-right: 135px;
+    float:right;
+    text-align:center;
+    border-width: 2px;
+     border-color:rgba(0,0,0,0.5);
+     font-size: 20px;
+}
+option{
+    font-size: 15px;
+    text-align: center;
+    
+}
